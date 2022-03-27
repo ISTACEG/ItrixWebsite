@@ -26,6 +26,9 @@ const userSchema = new mongoose.Schema({
 	events: {
 		type: [String],
 	},
+	eventRegistrationId: {
+		type: String,
+	},
 });
 
 const User = mongoose.model("User", userSchema);

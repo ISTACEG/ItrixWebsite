@@ -1,15 +1,12 @@
 const router = require("express").Router();
 
-const { auth, admin } = require("../utils/verify");
+const { auth } = require("../utils/verify");
 const {
-	createEvent,
-	getAllEvents,
+	getEnrolledEvents,
 	enrollEvent,
 } = require("../controllers/eventController");
 
-router.get("/", auth, getAllEvents);
+router.get("/", auth, getEnrolledEvents);
 router.get("/enroll/:eventId", auth, enrollEvent);
-
-router.post("/create", admin, createEvent);
 
 module.exports = router;

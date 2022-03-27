@@ -124,13 +124,13 @@
         "tags": [
           "Events"
         ],
-        "summary": "Get all Events",
+        "summary": "Get all Enrolled Events",
         "produces": [
           "application/json"
         ],
         "responses": {
           "200": {
-            "description": "List of Events"
+            "description": "List of all Enrolled Events"
           },
           "500": {
             "description": "Server Error"
@@ -176,10 +176,10 @@
         ]
       }
     },
-    "/event/create": {
+    "/admin/create-event": {
       "post": {
         "tags": [
-          "Events"
+          "Admin"
         ],
         "summary": "Create a new Event",
         "consumes": [
@@ -195,13 +195,46 @@
             "description": "Create a new Event",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/Event"
+              "$ref": "#/definitions/CreateEvent"
             }
           }
         ],
         "responses": {
           "201": {
             "description": "Event created!"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/admin/event-info": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Get detailed event information (includes registered users)",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Get Event info",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/EventInfo"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Event info!"
           },
           "500": {
             "description": "Server Error"
@@ -250,7 +283,7 @@
         }
       }
     },
-    "Event": {
+    "CreateEvent": {
       "type": "object",
       "properties": {
         "email": {
@@ -272,6 +305,20 @@
           "type": "string"
         },
         "time": {
+          "type": "string"
+        }
+      }
+    },
+    "EventInfo": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "eventId": {
           "type": "string"
         }
       }
