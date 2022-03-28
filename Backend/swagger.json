@@ -75,6 +75,9 @@
             "description": "Invalid credentials"
           },
           "403": {
+            "description": "Account verification required!"
+          },
+          "404": {
             "description": "No such user found!"
           },
           "500": {
@@ -163,7 +166,64 @@
         ],
         "responses": {
           "200": {
-            "description": "List of Events"
+            "description": "Event Registration ID"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
+      }
+    },
+    "/workshop/": {
+      "get": {
+        "tags": [
+          "Workshops"
+        ],
+        "summary": "Get all Enrolled Workshops",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "List of all Enrolled Workshops"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        },
+        "security": [
+          {
+            "Bearer": []
+          }
+        ]
+      }
+    },
+    "/workshop/enroll/{workshopId}": {
+      "get": {
+        "tags": [
+          "Workshops"
+        ],
+        "summary": "Enroll in a particular workshop",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "workshopId",
+            "description": "ID of the Workshop",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of Workshop Registration ID"
           },
           "500": {
             "description": "Server Error"
@@ -235,6 +295,72 @@
         "responses": {
           "201": {
             "description": "Event info!"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/admin/create-workshop": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Create a new Workshop",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Create a new Workshop",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/CreateWorkshop"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Workshop created!"
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/admin/workshop-info": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "summary": "Get detailed workshop information (includes registered users)",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Get Workshop info",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/WorkshopInfo"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Workshop info!"
           },
           "500": {
             "description": "Server Error"
@@ -319,6 +445,46 @@
           "type": "string"
         },
         "eventId": {
+          "type": "string"
+        }
+      }
+    },
+    "CreateWorkshop": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "workshopId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        }
+      }
+    },
+    "WorkshopInfo": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "workshopId": {
           "type": "string"
         }
       }

@@ -4,10 +4,15 @@ const otpGenerator = require("otp-generator");
 
 exports.getEnrolledEvents = async (req, res) => {
 	try {
-		const { events: enrolledEvents } = await User.findOne({
+		const { events: enrolledEvents, eventRegistrationId } =
+			await User.findOne({
+				email: req.userEmail,
+			}).select("-_id events eventRegistrationId");
+		return res.json({
 			email: req.userEmail,
-		}).select("-_id events");
-		return res.json({ email: req.userEmail, enrolledEvents });
+			enrolledEvents,
+			eventRegistrationId,
+		});
 	} catch (err) {
 		console.log(err);
 		return res.status(500).json({ msg: "Server Error" });
@@ -34,7 +39,7 @@ exports.enrollEvent = async (req, res) => {
 		return res.json({
 			msg: "Event enrolled",
 			email: savedUser.email,
-			eventsEnrolled: savedUser.events,
+			eventRegistrationId: savedUser.eventRegistrationId,
 		});
 	} catch (err) {
 		console.log(err);

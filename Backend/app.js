@@ -7,6 +7,7 @@ require("dotenv").config();
 const userRouter = require("./routes/user");
 const eventsRouter = require("./routes/event");
 const adminRouter = require("./routes/admin");
+const workshopRouter = require("./routes/workshop");
 const swaggerDoc = require("./swagger.json");
 
 const app = express();
@@ -29,6 +30,7 @@ app.get("/", (req, res) => {
 
 app.use("/user", userRouter);
 app.use("/event", eventsRouter);
+app.use("/workshop", workshopRouter);
 app.use("/admin", adminRouter);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 

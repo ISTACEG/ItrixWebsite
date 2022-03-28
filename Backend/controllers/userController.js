@@ -55,7 +55,11 @@ exports.login = async (req, res) => {
 		const { email, password } = req.body;
 		const savedUser = await User.findOne({ email });
 		if (!savedUser)
-			return res.status(403).json({ msg: "No such user found!" });
+			return res.status(404).json({ msg: "No such user found!" });
+		if (!savedUser.isVerified)
+			return res
+				.status(403)
+				.json({ msg: "Account verification required!" });
 		const isPasswordCorrect = await bcrypt.compare(
 			password,
 			savedUser.password

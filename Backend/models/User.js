@@ -29,6 +29,21 @@ const userSchema = new mongoose.Schema({
 	eventRegistrationId: {
 		type: String,
 	},
+	workshops: {
+		type: [String],
+	},
+	workshop1Id: {
+		type: String,
+	},
+	workshop2Id: {
+		type: String,
+	},
+	workshop3Id: {
+		type: String,
+	},
+	workshop4Id: {
+		type: String,
+	},
 });
 
 const User = mongoose.model("User", userSchema);
