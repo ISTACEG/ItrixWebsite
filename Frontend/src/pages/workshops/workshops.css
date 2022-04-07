@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.WorkshopsContainer {
+  font-size: 50%;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+
+.WorkshopMainHeading {
+  font-size: 3.6em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+.WorkshopSubHeading {
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 2.4em;
+  /* letter-spacing: 0.05em; */
+}
+
+.WorkshopSubSubHeading {
+  font-size: 2.6em;
+  line-height: 3.1em;
+  margin-bottom: 2em;
+}
+
+.WorkshopObjectContainer {
+  display: flex;
+  width: 100%;
+  /* gap: 15em; */
+  row-gap: 5em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.WorkshopObject {
+  /* background-color: #c4c4c4; */
+  height: 35em;
+  width: 35em;
+  margin: 3em;
+}
+
+.WorkshopImage {
+  height: 35em;
+  width: 35em;
+}
+
+.WorkshopObject:hover {
+  border: solid darkcyan 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .WorkshopsContainer {
+    padding: 1em;
+  }
+  .WorkshopObject {
+    margin: 1em;
+  }
+}

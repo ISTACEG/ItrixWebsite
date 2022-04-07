@@ -1,0 +1,169 @@
+.wrapper {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.nav {
+  width: 100%;
+  position: relative;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav-links {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 2em;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+.imgcontainer {
+  width: 100%;
+  margin: auto;
+}
+
+.imgcontainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detscontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.detsbox {
+  padding: 10px;
+  margin: 10px 20px;
+  background-color: rgba(35, 37, 38, 0.925);
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.detsbox .circle {
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.Itrixlogoimg {
+  height: 10vh;
+  padding-left: 2em;
+}
+
+.detsbox:nth-child(1) .circle {
+  background-color: rgba(97, 227, 51, 1);
+}
+
+.detsbox:nth-child(2) .circle {
+  background-color: rgba(51, 217, 227, 1);
+}
+
+.detsbox:nth-child(3) .circle {
+  background-color: rgba(51, 69, 227, 1);
+}
+
+.detsbox:nth-child(4) .circle {
+  background-color: rgba(251, 227, 16, 1);
+}
+
+.detsbox:nth-child(5) .circle {
+  background-color: rgba(227, 51, 93, 1);
+}
+
+.detsbox .highcontent {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.detsbox .content {
+  color: rgba(255, 255, 255, 0.66);
+  padding-top: 5px;
+}
+
+/* Above Tablet */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Both Tablet and Mobile */
+@media only screen and (max-width: 1023px) {
+  .detscontainer {
+    width: 100%;
+  }
+}
+
+/* Tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (max-width: 767px) {
+  .nav > .nav-btn {
+    display: inline;
+    float: right;
+  }
+  .nav-btn > label {
+    display: inline-block;
+    padding: 15px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 30px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(37, 37, 37, 0.845);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav-links a {
+    display: block;
+    padding: 25px;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+.quicklinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+}

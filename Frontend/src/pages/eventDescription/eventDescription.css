@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  background-color: black;
+}
+
+.MainContainer {
+  padding: 10rem;
+}
+.TopContainer {
+  display: flex;
+  gap: 5rem;
+}
+
+.topimage img {
+  height: 17rem;
+  width: 17rem;
+}
+
+.TopRightContainer {
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Technical {
+  font-size: 2.4rem;
+}
+
+.EventName {
+  font-size: 6.4rem;
+  margin-bottom: 2rem;
+}
+
+.ButtonContainer {
+  gap: 2.2rem;
+  display: flex;
+  top: 5rem;
+  font-size: 3rem;
+}
+
+.RegisterButton {
+  background-color: #408cff;
+  color: white;
+  height: 5.3rem;
+  width: 18.4rem;
+}
+
+.ExploreButton {
+  background-color: #181818;
+  color: white;
+  height: 5.3rem;
+  width: 18.4rem;
+}
+
+.MidContainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 2rem; */
+}
+
+.MidImage {
+  height: 40rem;
+  width: 30%;
+  background-color: white;
+}
+
+.DescriptionContainer {
+  background-color: #181818;
+  width: 116rem;
+  margin-top: 7.9rem;
+  padding: 5.5rem;
+  display: flex;
+  gap: 5.5rem;
+  flex-wrap: wrap;
+}
+
+.InnerDescriptionContainer {
+  background-color: #333333;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline-block;
+  width: 105rem;
+  height: 18rem;
+  padding: 2rem;
+}
+.IconContainer {
+  display: flex;
+  gap: 1rem;
+}
+.icon1 {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+}
+.Description {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 700;
+}
+
+.RulesContainer {
+  margin-top: 6.3rem;
+  background-color: #181818;
+  width: 116rem;
+  height: 30rem;
+  padding: 5rem;
+}
+.RulesIcon {
+  display: flex;
+  gap: 2rem;
+}
+.Rules {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+
+.DescriptionText {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.icon2 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.RulesContent {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.RulesContainer1 {
+  margin-top: 6.3rem;
+  background-color: #c4c4c4;
+  width: 116rem;
+  height: 30rem;
+  padding: 5rem;
+}
