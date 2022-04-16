@@ -1,0 +1,42 @@
+.TeamHeader {
+  padding-right: 10rem;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+.TeamContainer {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.TeamImageContainer {
+  width: 30rem;
+  height: 30rem;
+}
+
+.TeamImage {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+.PersonContainer {
+  font-size: 22px;
+  padding-left: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .TeamContainer {
+    /* text-align: center; */
+    align-items: center;
+  }
+  .TeamImageContainer {
+    width: 100%;
+    align-items: center;
+  }
+}

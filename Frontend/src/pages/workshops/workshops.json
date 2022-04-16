@@ -1,0 +1,43 @@
+[{
+    "eventName": "Chamber of Secrets",
+    "description": "It is an online treasure hunt. One or more images describing a word or event has to be connected to find an answer. The website for this event will be live for 3 independent days and the winners will be awarded with cash prizes.",
+    "round1":"",
+    "round2":"",
+    "rules":"",
+    "date":"1st, 2nd and 3rd May 2022",
+    "time":"",
+    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+    "image":"cos.png"
+},
+{
+    "eventName":"OLPC",
+    "description": "Online Programming Contest will be conducted online with programming questions of various difficulty levels.",
+    "round1":"The participant has to solve programming questions of various difficult levels in a particular coding platform.",
+    "rules":"The participant has to appear online for this event. Link will be shared in the website and the whatsapp group.",
+    "date":"4th May 2022",
+    "time":"8pm",
+    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+    "image":"olpc.png"
+},
+{
+    "eventName":"OSPC",
+    "description": "Onsite Programming Contest will be conducted on-premise in the computer laboratories.",
+    "round1":"Round 1 contains programming based multiple choice questions. Time Duration of this round is 30 minutes. Round 1 happens between 9am to 12pm.",
+    "round2":"Round 2 is a programming contest consisting of coding problems. This round happens between 2pm to 4pm.",
+    "rules":"",
+    "date":"6th May 2022",
+    "time":"9am to 4pm",
+    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+    "image":"ospc.png"
+},
+{
+    "eventName": "System Design",
+    "description": "System design event tests the system knowledge of the participants though designing a system for the given problem statement.",
+    "round1":"Given a problem statement or a scenario, participants has to design a complete system. This round happens between 9am and 3pm.",
+    "round2":"",
+    "rules":"",
+    "date":"6th May 2022",
+    "time":"9am to 3pm",
+    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+    "image":"systemDesign.png"
+}]
