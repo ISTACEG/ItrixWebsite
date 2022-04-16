@@ -19,7 +19,7 @@ const otpGenerator = require("otp-generator");
 // 	}
 // };
 
-exports.enrollEvent = async (req, res) => {
+exports.enrollEvent = async (req, res, next) => {
 	try {
 		const { name, email, phone, college, events } = req.body;
 		let eventRegId =
@@ -28,14 +28,17 @@ exports.enrollEvent = async (req, res) => {
 				lowerCaseAlphabets: false,
 				specialChars: false,
 			});
-		const user = new User({
-			name,
-			email,
-			phone,
-			college,
-			eventsRegistered: [...events],
-			eventRegistrationId: eventRegId,
-		});
+		let user = await User.findOne({ email });
+		if (!user) {
+			user = new User({
+				name,
+				email,
+				phone,
+				college,
+			});
+		}
+		(user.eventsRegistered = [...events]),
+			(user.eventRegistrationId = eventRegId);
 		// console.log(user);
 		for (let eventId of events) {
 			const event = await Event.findOne({ eventId });
@@ -43,11 +46,10 @@ exports.enrollEvent = async (req, res) => {
 			await event.save();
 		}
 		const savedUser = await user.save();
-		return res.json({
-			msg: "Event enrolled",
-			email: savedUser.email,
-			eventRegistrationId: savedUser.eventRegistrationId,
-		});
+		req.name = savedUser.name;
+		req.email = savedUser.email;
+		req.eventRegistrationId = savedUser.eventRegistrationId;
+		next();
 	} catch (err) {
 		console.log(err);
 		return res.status(500).json({ msg: "Server Error" });
