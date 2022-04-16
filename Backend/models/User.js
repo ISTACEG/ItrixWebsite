@@ -13,23 +13,17 @@ const userSchema = new mongoose.Schema({
 		type: String,
 		required: true,
 	},
-	password: {
+	college: {
 		type: String,
 		required: true,
 	},
-	otp: {
-		type: Number,
-	},
-	isVerified: {
-		type: Boolean,
-	},
-	events: {
+	eventsRegistered: {
 		type: [String],
 	},
 	eventRegistrationId: {
 		type: String,
 	},
-	workshops: {
+	workshopsRegistered: {
 		type: [String],
 	},
 	workshop1Id: {

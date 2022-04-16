@@ -8,232 +8,64 @@
   "host": "localhost:3000",
   "basePath": "/",
   "paths": {
-    "/user/signup": {
+    "/event/enroll": {
       "post": {
-        "tags": [
-          "User"
-        ],
-        "summary": "User Signup",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "User signup",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/UserSignup"
-            }
-          }
-        ],
-        "responses": {
-          "201": {
-            "description": "Account created!"
-          },
-          "400": {
-            "description": "User already exists"
-          },
-          "500": {
-            "description": "Server Error"
-          }
-        }
-      }
-    },
-    "/user/login": {
-      "post": {
-        "tags": [
-          "User"
-        ],
-        "summary": "User Login",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "User Login",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/UserLogin"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Logged in!"
-          },
-          "400": {
-            "description": "Invalid credentials"
-          },
-          "403": {
-            "description": "Account verification required!"
-          },
-          "404": {
-            "description": "No such user found!"
-          },
-          "500": {
-            "description": "Server Error"
-          }
-        }
-      }
-    },
-    "/user/verify": {
-      "post": {
-        "tags": [
-          "User"
-        ],
-        "summary": "OTP for Account Verification",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "description": "OTP for Account Verification",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/VerifyOTP"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Account verified!"
-          },
-          "400": {
-            "description": "Incorrect OTP!"
-          },
-          "500": {
-            "description": "Server Error"
-          }
-        }
-      }
-    },
-    "/event/": {
-      "get": {
         "tags": [
           "Events"
         ],
-        "summary": "Get all Enrolled Events",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "List of all Enrolled Events"
-          },
-          "500": {
-            "description": "Server Error"
-          }
-        },
-        "security": [
-          {
-            "Bearer": []
-          }
-        ]
-      }
-    },
-    "/event/enroll/{eventId}": {
-      "get": {
-        "tags": [
-          "Events"
-        ],
-        "summary": "Enroll in a particular event",
+        "summary": "Enroll in an event",
         "produces": [
           "application/json"
         ],
         "parameters": [
           {
-            "in": "path",
-            "name": "eventId",
-            "description": "ID of the Event",
+            "in": "body",
+            "name": "body",
+            "description": "Enroll in an Event",
             "required": true,
-            "type": "string"
+            "schema": {
+              "$ref": "#/definitions/EnrollEvent"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "Event Registration ID"
+            "description": "Enrolled Successfully!"
           },
           "500": {
             "description": "Server Error"
           }
-        },
-        "security": [
-          {
-            "Bearer": []
-          }
-        ]
+        }
       }
     },
-    "/workshop/": {
-      "get": {
+    "/workshop/enroll/": {
+      "post": {
         "tags": [
           "Workshops"
         ],
-        "summary": "Get all Enrolled Workshops",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "List of all Enrolled Workshops"
-          },
-          "500": {
-            "description": "Server Error"
-          }
-        },
-        "security": [
-          {
-            "Bearer": []
-          }
-        ]
-      }
-    },
-    "/workshop/enroll/{workshopId}": {
-      "get": {
-        "tags": [
-          "Workshops"
-        ],
-        "summary": "Enroll in a particular workshop",
+        "summary": "Enroll in a workshop",
         "produces": [
           "application/json"
         ],
         "parameters": [
           {
-            "in": "path",
-            "name": "workshopId",
-            "description": "ID of the Workshop",
+            "in": "body",
+            "name": "body",
+            "description": "Enroll in a Workshop",
             "required": true,
-            "type": "string"
+            "schema": {
+              "$ref": "#/definitions/EnrollWorkshop"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "List of Workshop Registration ID"
+            "description": "Enrolled Successfully!"
           },
           "500": {
             "description": "Server Error"
           }
-        },
-        "security": [
-          {
-            "Bearer": []
-          }
-        ]
+        }
       }
     },
     "/admin/create-event": {
@@ -370,7 +202,7 @@
     }
   },
   "definitions": {
-    "UserSignup": {
+    "EnrollEvent": {
       "type": "object",
       "properties": {
         "name": {
@@ -382,29 +214,30 @@
         "phone": {
           "type": "string"
         },
-        "password": {
+        "college": {
+          "type": "string"
+        },
+        "events": {
           "type": "string"
         }
       }
     },
-    "UserLogin": {
+    "EnrollWorkshop": {
       "type": "object",
       "properties": {
+        "name": {
+          "type": "string"
+        },
         "email": {
           "type": "string"
         },
-        "password": {
-          "type": "string"
-        }
-      }
-    },
-    "VerifyOTP": {
-      "type": "object",
-      "properties": {
-        "email": {
+        "phone": {
           "type": "string"
         },
-        "otp": {
+        "college": {
+          "type": "string"
+        },
+        "workshops": {
           "type": "string"
         }
       }
@@ -488,14 +321,6 @@
           "type": "string"
         }
       }
-    }
-  },
-  "securityDefinitions": {
-    "Bearer": {
-      "type": "apiKey",
-      "description": "Enter JWT Token",
-      "name": "Authorization",
-      "in": "header"
     }
   }
 }
