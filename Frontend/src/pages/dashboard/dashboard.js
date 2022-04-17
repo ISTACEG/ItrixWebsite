@@ -40,7 +40,7 @@ function Gallery() {
   return (
     <div className="gallery">
       <center>
-        <h2>Gallery</h2>
+        <h2>GALLERY</h2>
       </center>
 
       {/* <div className="gallerybox">

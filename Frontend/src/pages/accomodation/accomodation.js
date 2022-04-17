@@ -1,5 +1,12 @@
 import React from 'react';
 
 export default function Accomodation() {
-  return <h1 style={{ color: '#123a54' }}>Accomodation page</h1>;
+  return (
+    <div className="TeamsContainer">
+      <p className="TeamMainHeading">ACCOMODATION</p>
+      <center>
+        <img src="cs.gif"></img>
+      </center>
+    </div>
+  );
 }

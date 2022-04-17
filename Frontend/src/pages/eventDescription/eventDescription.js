@@ -24,17 +24,20 @@ function EventDescription() {
         </div>
         <div className="TopRightContainer">
           <p className="EventName">{eventName}</p>
+          <p className="EventName">
+            <small>
+              {date}
+              {'  '} {time}
+            </small>
+          </p>
+          <p className="EventName">{contact[0].name}</p>
+
           <div className="ButtonContainer">
-            <button className="ExploreButton">Explore</button>
+            <button className="RegisterButton">Explore</button>
           </div>
         </div>
       </div>
-      <div className="MidContainer">
-        <div className="MidImage">
-          {date} {time}
-        </div>
-        <div className="MidImage">{contact[0].name}</div>
-      </div>
+
       <div className="DescriptionContainer">
         <Description header="DESCRIPTION" content={description} />
         <Description header="ROUND 1" content={round1} />
@@ -46,16 +49,15 @@ function EventDescription() {
 }
 
 const Description = (props) => {
+  if (props.content == undefined) return null;
   if (props.content != '') {
     return (
-      <div>
-        <div className="InnerDescriptionContainer">
-          <div className="IconContainer">
-            <div className="icon1"></div>
-            <p className="Description">{props.header}</p>
-          </div>
-          <p className="DescriptionText">{props.content}</p>
+      <div className="InnerDescriptionContainer">
+        <div className="IconContainer">
+          <div className="icon1"></div>
+          <p className="Description">{props.header}</p>
         </div>
+        <p className="DescriptionText">{props.content}</p>
       </div>
     );
   } else {

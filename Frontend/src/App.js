@@ -15,6 +15,7 @@ import Workshops from './pages/workshops/workshops';
 import Accomodation from './pages/accomodation/accomodation';
 import Sponsors from './pages/sponsors/sponsors';
 import EventDescription from './pages/eventDescription/eventDescription';
+import Registration from './pages/Registration/Registration';
 
 function Test() {
   return <h1 style={{ color: '#123a54' }}>testing page</h1>;
@@ -32,6 +33,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/eventdescription" element={<EventDescription />} />
+        <Route path="/registration" element={<Registration />} />
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

@@ -1,0 +1,97 @@
+[ {
+    "name":"Dr.S.Swamynathan",
+    "role":"President",
+    "image":"Swamynathan.jpg"
+},
+{
+    "name":"Dr.N.Thangaraj",
+    "role":"Staff Treasurer",
+    "image":"Thangaraj.jpg"
+},
+
+
+{
+    "name":"Adhis H",
+    "role":"Chairman",
+    "image":"Adhis.jpg"
+},
+{
+    "name":"Ragul B",
+    "role":"Student Treasurer",
+    "image":"Ragul.jpg"
+},
+{
+    "name":"Balasubramaniam M",
+    "role":"Overall Coordinator",
+    "image":"Bala.jpg"
+},
+{
+    "name":"Raghav Swaminathan",
+    "role":"Industrial Relations Head",
+    "image":"Raghav.jpg"
+},
+{
+    "name":"Dhrisha G",
+    "role":"Industrial Relations Head",
+    "image":"Dhrisha.jpg"
+},
+{
+    "name":"Hariharan S",
+    "role":"Programming Head",
+    "image":"Hariharan.png"
+},
+{
+    "name":"Hrithik K",
+    "role":"Programming Head, Web Developer",
+    "image":"Hrithik.jpg"
+},
+{
+    "name":"Lavanya S",
+    "role":"Design & Web Development Head",
+    "image":"Lavanya.jpg"
+},
+{
+    "name":"Murugan A",
+    "role":"Design & Web Development Head",
+    "image":"Murugan.jpg"
+},
+{
+    "name":"Nauvyashree A",
+    "role":"Marketing Head",
+    "image":"Nauvyashree.jpg"
+},
+{
+    "name":"Shankar Subramanian",
+    "role":"News Letter Head",
+    "image":"Shankar.jpg"
+},
+{
+    "name":"Kevin Paul",
+    "role":"Documentation Head",
+    "image":"Kevin.jpg"
+},
+{
+    "name":"Venkat Karthick P",
+    "role":"Placement Training Coordinator",
+    "image":"Venkat.jpg"
+},
+{
+    "name":"Sushrut Vinayak",
+    "role":"Internship Training Coordinator",
+    "image":"Sushrut.jpg"
+},
+{
+    "name":"Jeevesh Guha Natrajan",
+    "role":"Co-Chairman",
+    "image":"Jeevesh.jpg"
+},
+{
+    "name":"Praveen R",
+    "role":"General Secretary",
+    "image":"Praveen.png"
+},
+{
+    "name":"Dhanya Venkateswaran",
+    "role":"Deputy Secretary",
+    "image":"Dhanya.jpg"
+}]

@@ -1,0 +1,115 @@
+ 
+.formcontainer {
+    margin-top: 2em;
+  width: 50%;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+.loginname {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 5%;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.inputmultiselect{
+    background-color: #181818;
+     
+    margin-bottom: 2em;
+    box-sizing: border-box;
+}
+::placeholder {
+  color: #ffffff;
+  font-family: 'Inter';
+  padding-left: 0.5em;
+  font-weight: 400;
+  font-size: 100%;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding-left: 19%;
+  padding-right: 13%;
+}
+
+#left {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.loginButton {
+    background: linear-gradient(180deg, #408cff 0%, #0066ff 100%);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: bold;
+    color: #ffffff;
+  }
+
+#signup {
+  color: white;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightimage {
+  display: block;
+  width: 40%;
+  position: absolute;
+  height: 80%;
+  bottom: 0;
+  right: 0;
+}
+
+.inputselect{
+    margin-bottom: 5%;
+   background: #181818;
+   border-radius: 7px;
+    border: none;
+    height: 6.75vh;
+    
+    color: #ffffff;
+  font-family: 'Inter';
+  padding-left: 1em;
+  font-weight: 400;
+  font-size: 100%;
+
+}
+
+input{
+    padding-left: 1em;
+}
+
+@media only screen and (max-width: 1000px) {
+  #id {
+    width: 100%;
+  }
+  .imagecontainer {
+    width: 0%;
+    display: none;
+  }
+  .formcontainer {
+      margin-top: 5em;
+      
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+

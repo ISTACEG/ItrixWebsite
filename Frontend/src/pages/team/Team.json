@@ -1,0 +1,50 @@
+[
+   
+    {
+        "name":"Harsha Vardhan H R",
+        "role":"Web Developer",
+        "image":"Harsha.jpeg"
+    },
+    {
+        "name":"Eashwar P",
+        "role":"Web Developer",
+        "image":"Eashwar.jpeg"
+    },
+    {
+        "name":"Subash Raja S",
+        "role":"Web Developer",
+        "image":"Subash.jpg"
+    },
+    
+    {
+        "name":"Akil Vishnu M",
+        "role":"Web Developer",
+        "image":"Akil.jpg"
+    },
+    {
+        "name":"Ravikumar S",
+        "role":"Web Developer",
+        "image":"Ravi.jpeg"
+    },
+    {
+        "name":"Harinarayanan K S",
+        "role":"Web Developer",
+        "image":"Harinarayanan.jpg"
+    },
+    {
+        "name":"Palaniappan N",
+        "role":"Web Developer",
+        "image":"Palani.jpeg"
+    },
+    {
+        "name":"Varoon S B",
+        "role":"Web Developer",
+        "image":"Varoon.jpeg"
+    },
+    {
+        "name":"Agilan",
+        "role":"Web Developer",
+        "image":"Agilan.jpg"
+    }
+
+]

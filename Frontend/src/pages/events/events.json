@@ -7,17 +7,18 @@
         "rules":"",
         "date":"1st, 2nd and 3rd May 2022",
         "time":"",
-        "contact":[{"name":"bala","contactno":"999"},{"name":"adhis","contactno":"987"}],
+        "contact":[{"name":"bala","contactno":"9998887776"},{"name":"adhis","contactno":"9872344321"}],
         "image":"cos.png"
     },
     {
         "eventName":"OLPC",
         "description": "Online Programming Contest will be conducted online with programming questions of various difficulty levels.",
         "round1":"The participant has to solve programming questions of various difficult levels in a particular coding platform.",
+        "round2":"",
         "rules":"The participant has to appear online for this event. Link will be shared in the website and the whatsapp group.",
         "date":"4th May 2022",
         "time":"8pm",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"bala","contactno":"999"},{"name":"adhis","contactno":"987"}],
         "image":"olpc.png"
     },
     {
