@@ -1,43 +1,38 @@
-[{
-    "eventName": "Chamber of Secrets",
-    "description": "It is an online treasure hunt. One or more images describing a word or event has to be connected to find an answer. The website for this event will be live for 3 independent days and the winners will be awarded with cash prizes.",
-    "round1":"",
-    "round2":"",
-    "rules":"",
-    "date":"1st, 2nd and 3rd May 2022",
-    "time":"",
-    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
-    "image":"cos.png"
-},
-{
-    "eventName":"OLPC",
-    "description": "Online Programming Contest will be conducted online with programming questions of various difficulty levels.",
-    "round1":"The participant has to solve programming questions of various difficult levels in a particular coding platform.",
-    "rules":"The participant has to appear online for this event. Link will be shared in the website and the whatsapp group.",
-    "date":"4th May 2022",
-    "time":"8pm",
-    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
-    "image":"olpc.png"
-},
-{
-    "eventName":"OSPC",
-    "description": "Onsite Programming Contest will be conducted on-premise in the computer laboratories.",
-    "round1":"Round 1 contains programming based multiple choice questions. Time Duration of this round is 30 minutes. Round 1 happens between 9am to 12pm.",
-    "round2":"Round 2 is a programming contest consisting of coding problems. This round happens between 2pm to 4pm.",
-    "rules":"",
-    "date":"6th May 2022",
-    "time":"9am to 4pm",
-    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
-    "image":"ospc.png"
-},
-{
-    "eventName": "System Design",
-    "description": "System design event tests the system knowledge of the participants though designing a system for the given problem statement.",
-    "round1":"Given a problem statement or a scenario, participants has to design a complete system. This round happens between 9am and 3pm.",
-    "round2":"",
-    "rules":"",
-    "date":"6th May 2022",
-    "time":"9am to 3pm",
-    "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
-    "image":"systemDesign.png"
-}]
+[
+    {
+        "id": 1,
+        "eventName": "BlockChain Workshop by ChainLink",
+        "description": "The above workshop will be conducted by Chainlink.\nRegistration Fee: Rs.750/-\nThe topics include\n1. Chainlink Bootcamp,\n 2. Learn about EVM Chains, how they work. \n 3. Build samrt contracts using Solidity, an EVM Language.\n 4. Build Hybrid smart contracts using Chainlink and Solidity. \n 5.Create NFTs with randomness using Chainlink VRF.\n Time Period : 7 hours (excluding breaks)",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"Chainlink.png"
+    },
+    {
+        "id": 2,
+        "eventName": "UX UI Desing Workshop by UXMINT",
+        "description": "The workshop will be conducted by UXMINT.\nRegistration Fee: Rs.750/-\nThe topics that will be covered includes,\n1. Introduction about design.\n2. What is UX and UI?\n3. Process of Digital Design.\n4. Problem Solving - Team Activity.\n5. Discussion on the Team Activity.\n6. Industry Expectations and Career in Design.\nTime Period : 6 hours (excluding breaks)",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"UXMINT.png"
+    },
+    {
+        "id": 3,
+        "eventName": "Cybersecurity Workshop by BriskInfosec",
+        "description": "This cybersecurity workshop will be conducted by BriskInfosec.\nRegistration Fee: Rs.750/-",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"Briskinfosec.png"
+    }
+]

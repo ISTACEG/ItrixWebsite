@@ -16,6 +16,11 @@ function EventDescription() {
     contact,
   } = param;
 
+  const scroll = () => {
+    const section = document.querySelector( '#moveHere' );
+    section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+  };
+
   return (
     <div className="MainContainer">
       <div className="TopContainer">
@@ -24,19 +29,25 @@ function EventDescription() {
         </div>
         <div className="TopRightContainer">
           <p className="EventName">{eventName}</p>
-          <p className="EventName">
-            <small>
-              {date}
-              {'  '} {time}
-            </small>
-          </p>
-          <p className="EventName">{contact[0].name}</p>
+          
 
           <div className="ButtonContainer">
-            <button className="RegisterButton">Explore</button>
+          <button className="RegisterButton" onClick={scroll}>Explore</button>
+          {/* <a href='#moveHere'><button className="RegisterButton">Explore</button></a> */}
           </div>
         </div>
       </div>
+
+      <center>
+        <b><p color='Blue' className="E-Name" id="moveHere">DATE</p></b>
+        <p className='E-content'>
+            <small>
+              {date}
+            </small>
+          </p>
+          <Time header="TIME" content={time} />
+          <Contact header="CONTACT" content={contact} />
+          </center>
 
       <div className="DescriptionContainer">
         <Description header="DESCRIPTION" content={description} />
@@ -48,16 +59,56 @@ function EventDescription() {
   );
 }
 
+const Contact = (props) => {
+  if(props.content == undefined) return null;
+  if(props.content[0].name != "")
+  {
+    return(
+      <div>
+        <b><p color='Blue' className="E-Name">CONTACT</p></b>
+          <p className='E-content'><small>{props.content[0].name}  -{' '} {props.content[0].contactno}</small></p>
+          <p className='E-content'><small>{props.content[1].name}  -{' '} {props.content[1].contactno}</small></p>
+      </div>
+    );
+  }
+  else {
+    return null;
+  }
+};
+
+const Time = (props) => {
+  if(props.content == undefined) return null;
+  if(props.content!='')
+  {
+    return(
+      <div>
+        <b><p color='Blue' className="E-Name">TIME</p></b>
+          <p className='E-content'>
+            <small>
+            {props.content}
+            </small>
+          </p>
+      </div>
+    );
+  }else{
+    return null;
+  }
+};
+
 const Description = (props) => {
   if (props.content == undefined) return null;
   if (props.content != '') {
+    let descArr = props.content.split('\n')
     return (
       <div className="InnerDescriptionContainer">
         <div className="IconContainer">
           <div className="icon1"></div>
           <p className="Description">{props.header}</p>
         </div>
-        <p className="DescriptionText">{props.content}</p>
+        {descArr.map((desc) => {
+          return <div><p className="DescriptionText">{desc}</p></div>
+        })}
+       
       </div>
     );
   } else {
@@ -67,13 +118,16 @@ const Description = (props) => {
 
 const Rules = (props) => {
   if (props.content != '') {
+    let rulesArr = props.content.split('\n')
     return (
       <div className="RulesContainer">
         <div className="RulesIcon">
           <div className="icon2"></div>
           <p className="Rules">Rules</p>
         </div>
-        <p className="RulesContent">{props.content}</p>
+        {rulesArr.map((rule) => {
+          return <div><p className="RulesContent">{rule}</p></div>
+        })}
       </div>
     );
   }

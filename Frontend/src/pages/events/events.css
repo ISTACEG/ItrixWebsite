@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-#registerbtn{
+/* #registerbtn{
   color: #2098d8;
-}
+} */
 .EventsContainer {
   font-size: 50%;
   background-color: black;
@@ -16,6 +16,7 @@
   margin-bottom: 1em;
   margin-left: 2em;
 }
+
 
 .EventSubHeading {
   font-size: 2em;
@@ -57,6 +58,27 @@
 }
 .Teamnameandrole{
   font-size: large;
+}
+
+.aquafade {
+  border: 2px solid #1eb3bc;
+  color: #1eb3bc;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  transition-property: color, background-color;
+}
+
+
+.aquafade:hover, .aquafade:focus, .aquafade:active {
+  color: white;
+  background-color: #1eb3bc;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {

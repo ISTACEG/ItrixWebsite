@@ -8,12 +8,12 @@ export default function Events() {
   return (
     <div className="EventsContainer">
       <p className="EventMainHeading">
-        EVENTS -{' '}
-        <Link to="/registration" id="registerbtn">
-          Register
-        </Link>
+        EVENTS {'   '}
+        {/* <Link to="/registration" id="registerbtn">
+        
+        </Link> */}
+        <a href="/registration" id="registerbtn" class="aquafade">Register</a>
       </p>
-
       <div className="EventObjectContainer">
         {eventarray.map((event) => {
           return (

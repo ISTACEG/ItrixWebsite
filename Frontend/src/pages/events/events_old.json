@@ -1,0 +1,222 @@
+[
+    {
+        "eventName": "Chamber of Secrets",
+        "description": "It is an online treasure hunt. One or more images describing a word or event has to be connected to find an answer. The website for this event will be live for 3 independent days and the winners will be awarded with cash prizes.",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"1st, 2nd and 3rd May 2022",
+        "time":"",
+        "contact":[{"name":"bala","contactno":"9998887776"},{"name":"adhis","contactno":"9872344321"}],
+        "image":"cos.png"
+    },
+    {
+        "eventName":"OLPC",
+        "description": "Online Programming Contest will be conducted online with programming questions of various difficulty levels.",
+        "round1":"The participant has to solve programming questions of various difficult levels in a particular coding platform.",
+        "round2":"",
+        "rules":"The participant has to appear online for this event. Link will be shared in the website and the whatsapp group.",
+        "date":"4th May 2022",
+        "time":"8pm",
+        "contact":[{"name":"bala","contactno":"999"},{"name":"adhis","contactno":"987"}],
+        "image":"olpc.png"
+    },
+    {
+        "eventName":"OSPC",
+        "description": "Onsite Programming Contest will be conducted on-premise in the computer laboratories.",
+        "round1":"Round 1 contains programming based multiple choice questions. Time Duration of this round is 30 minutes. Round 1 happens between 9am to 12pm.",
+        "round2":"Round 2 is a programming contest consisting of coding problems. This round happens between 2pm to 4pm.",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"ospc.png"
+    },
+    {
+        "eventName": "System Design",
+        "description": "System design event tests the system knowledge of the participants though designing a system for the given problem statement.",
+        "round1":"Given a problem statement or a scenario, participants has to design a complete system. This round happens between 9am and 3pm.",
+        "round2":"",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 3pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"systemDesign.png"
+    },
+    {
+        "eventName": "Code Decode",
+        "description": "Code Decode event tests the logical ability of the participants by allowing them to think of the logic of a given problem or result.",
+        "round1":"This round tests the logical thinking skills through code understanding and predicting the output. This round happens between 9am and 12pm and the time duration for the participants is 30 minutes.",
+        "round2":"Given an input and the output, the participant has to predict the exact logic behind the operation and implement the predicted logic. This round happens between 2pm and 4pm.",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"codeDecode.png"
+    },
+    {
+        "eventName": "UI Automation",
+        "description": "",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"uiAutomation.png"
+    },
+    {
+        "eventName": "Postman Testing",
+        "description": "Given a problem statement, the participant has to create an API and test it with postman. Internet will be provided.",
+        "round1":"Round 1 consists of MCQs based on backend development. Time duration of this round is 30 minutes. This round happens between 9am and 12am.",
+        "round2":"Given the requirement, participant should create an API using any backend language of their won and test it using Postman.",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"postmanTesting.png"
+    },
+    {
+        "eventName": "Innovate",
+        "description": "Logical.ly tests the logical reasoning skills. The logic behind the given questions and scenarios has to be find to solve the given problem.",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 2pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"innovate.png"
+    },
+    {
+        "eventName": "Math-o-Mania",
+        "description": "Math-o-Mania tests the mathematical skills of the participants.",
+        "round1":"Round 1 contains easy and medium level mathematical and logical aptitudes and quizzes. This round happens between 9am and 12pm and the time duration is 30 minutes.",
+        "round2":"Round 2 consists of medium and hard level mathematical and logical aptitudes and quizzes. This round happens between 2pm and 4pm and the time duration is 45 minutes.",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"mathOMania.png"
+    },
+    {
+        "eventName": "Paper Presentation",
+        "description": "",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"6th May 2022",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"paperPresentation.png"
+    },
+    {
+        "eventName": "Capture the Flag (CTF)",
+        "description": "",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 5pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"ctf.png"
+    },
+    {
+        "eventName": "Reverse Coding",
+        "description": "Reverse Coding is an event that is to test the efficient coding skills of the participant.",
+        "round1":"Round 1 is a pen and paper round in which the participant needs to write code for a given problem statements. This round happens between 9am and 12pm and the time duration for a team is 30 minutes.",
+        "round2":"Round 2 is a programming contest consisting of visual difficulties and challenges while coding. It will be conducted in any of the online coding platform. This round happens between 2pm and 4pm.",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"reverseCoding.png"
+    },
+    {
+        "eventName": "Webtrix",
+        "description": "Webtrix is a web app development contest which tests the participants’ web development skills.",
+        "round1":"Round 1 consists of web based MCQs. Time duration for this round is 30 minutes and the round happens between 9am and 12pm.",
+        "round2":"Given the requirements, the participants should create a web app comprising of all the key features given, using any technology stack. This round happens between 2pm and 4pm.",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"webtrix.png"
+    },
+    {
+        "eventName": "O(1)",
+        "description": "O(1) is an event to test the optimized coding skills of the participants.",
+        "round1":"This round will be conducted in any online coding platform. It consists of a set of coding questions to which the participants have to find the most optimal solution.",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 12pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"o1.png"
+    },
+    {
+        "eventName": "Sequalize",
+        "description": "Sequalize is an event to test the skills of database and queries.",
+        "round1":"Round 1 consists of MCQs based on Database Management System. The time duration for the round is 30 minutes and it happens between 9am and 12pm.",
+        "round2":"Given a set of problems, participants need to write queries to perform the given operation. This round happens between 2pm and 4pm.",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"sequalize.png"
+    },
+    {
+        "eventName": "UI/UX Design",
+        "description": "UI/UX design is to test the UI design skills of participants.",
+        "round1":"Given an application, the participant needs to design a good User Interface using Adobe XD or Figma. This event happens between 9 am and 4pm.",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 12pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"uiuxDesign.png"
+    },
+    {
+        "eventName": "Snapture Hunt",
+        "description": "Snapture hunt is to check the creativity of a participant by analyzing how they captures the scenes around them and test their familiarity with the places in CEG campus. This event happens between 9am and 3pm.",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 3pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"snaptureHunt.png"
+    },
+    {
+        "eventName": "Logical.ly",
+        "description": "Logical.ly tests the logical reasoning skills. The logic behind the given questions and scenarios has to be find to solve the given problem.",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 12pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"logically.png"
+    },
+    {
+        "eventName": "Mad over Marketing",
+        "description": "",
+        "round1":"",
+        "round2":"",
+        "rules":"",
+        "date":"",
+        "time":"",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"madOverMarketing.png"
+    },
+    {
+        "eventName": "IPL Auction",
+        "description": "IPL Auction is an event which involves testing the sports skills of participants. This event also allows participants to take part in Auction and select the players and form the best team.",
+        "round1":"Round 1 consists of MCQs based on previous IPL matches. This round happens between 9am and 12pm and the time duration is 30 minutes.",
+        "round2":"Round 2 is where auction will be conducted. Given a list of players and the amount, participants has to select the best team. This round happens between 2pm and 4pm.",
+        "rules":"",
+        "date":"7th May 2022",
+        "time":"9am to 4pm",
+        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "image":"iplAuction.png"
+    }
+]

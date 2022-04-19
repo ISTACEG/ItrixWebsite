@@ -43,7 +43,7 @@ exports.enrollWorkshop = async (req, res, next) => {
 				college,
 			});
 		}
-		console.log(user);
+		
 		if (user.workshopsRegistered.includes(workshop)) {
 			return res
 				.status(400)
@@ -57,19 +57,25 @@ exports.enrollWorkshop = async (req, res, next) => {
 			lowerCaseAlphabets: false,
 			specialChars: false,
 		});
-		if (workshop === "1") {
+
+		console.log(workshop);
+		if (workshop === 1) {
 			user.workshop1Id = "ITW1-" + regId;
 			req.workshopRegistrationId = "ITW1-" + regId;
-		} else if (workshop === "2") {
+		} else if (workshop === 2) {
 			user.workshop2Id = "ITW2-" + regId;
 			req.workshopRegistrationId = "ITW2-" + regId;
-		} else if (workshop === "3") {
+		} else if (workshop === 3) {
 			user.workshop3Id = "ITW3-" + regId;
 			req.workshopRegistrationId = "ITW3-" + regId;
-		} else if (workshop === "4") {
+		} else if (workshop === 4) {
 			user.workshop4Id = "ITW4-" + regId;
 			req.workshopRegistrationId = "ITW4-" + regId;
 		}
+
+		console.log("User")
+		console.log(user);
+
 		const savedUser = await user.save();
 		req.name = savedUser.name;
 		req.workshopName = workshopDetail.name;

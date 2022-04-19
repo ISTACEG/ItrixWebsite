@@ -38,7 +38,7 @@
     {
         "name":"Hariharan S",
         "role":"Programming Head",
-        "image":"Hariharan.png"
+        "image":"Hariharan.jpg"
     },
     {
         "name":"Hrithik K",
@@ -140,6 +140,11 @@
         "name":"Agilan",
         "role":"Web Developer",
         "image":"Agilan.jpeg"
+    },
+    {
+        "name":"Srishti Gulecha R",
+        "role":"Web Developer",
+        "image":"Srishti.jpg"
     },
 
 ]

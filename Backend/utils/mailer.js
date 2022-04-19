@@ -48,11 +48,11 @@ exports.sendEventRegistrationMail = (req, res) => {
 		attachments: [
 			{
 				filename: "image1.jpg",
-				path: "./utils/codeDecode.png",
+				path: "./utils/1.png",
 			},
 			{
 				filename: "image2.jpg",
-				path: "./utils/ctf.png",
+				path: "./utils/2.png",
 			},
 		],
 	};
@@ -64,10 +64,14 @@ exports.sendEventRegistrationMail = (req, res) => {
 				.status(400)
 				.json({ err: "Server error. Couldn't send mail" });
 		}
+		console.log("Event enrolled!!")
 		return res.json({
 			msg: "Event enrolled and Mail sent",
+			status: "Payment Success",
 			email: req.email,
 			eventRegistrationId: req.eventRegistrationId,
+			orderId: req.orderId,
+			paymentId: req.paymentId,
 		});
 	});
 };
@@ -108,13 +112,13 @@ exports.sendWorkshopRegistrationEmail = (req, res) => {
 		html: content,
 		attachments: [
 			{
-				filename: "",
-				path: "",
+				filename: "image1.jpg",
+				path: "./utils/1.png",
 			},
 			{
-				filename: "",
-				path: "",
-			},
+				filename: "image2.jpg",
+				path: "./utils/2.png",
+			}
 		],
 	};
 
@@ -127,8 +131,11 @@ exports.sendWorkshopRegistrationEmail = (req, res) => {
 		}
 		return res.json({
 			msg: `${req.workshopName} Workshop enrolled and Mail sent`,
+			status: "Payment Success",
 			email: req.email,
 			workshopRegistrationId: req.workshopRegistrationId,
+			orderId: req.orderId,
+			paymentId: req.paymentId,
 		});
 	});
 };

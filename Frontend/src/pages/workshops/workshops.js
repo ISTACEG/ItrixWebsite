@@ -9,7 +9,14 @@ export default function Workshops() {
 
   return (
     <div className="WorkshopsContainer">
-      <p className="WorkshopMainHeading">WORKSHOPS</p>
+      <p className="WorkshopMainHeading">WORKSHOPS{'   '}
+      {/* <Link to="/workshopRegistration" id="registerbtn">
+          Register
+      </Link> */}
+      <a href="/workshopRegistration" id="registerbtn" class="aquafade">Register</a>
+      </p>
+
+      
 
       <div className="WorkshopObjectContainer">
         {workshopsArray.map((workshop) => {

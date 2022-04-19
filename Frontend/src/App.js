@@ -15,6 +15,7 @@ import Workshops from './pages/workshops/workshops';
 import Accomodation from './pages/accomodation/accomodation';
 import Sponsors from './pages/sponsors/sponsors';
 import EventDescription from './pages/eventDescription/eventDescription';
+import WorkshopRegistration from './pages/workshopRegistration/workshopRegistration';
 import Registration from './pages/Registration/Registration';
 
 function Test() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/eventdescription" element={<EventDescription />} />
+        <Route path="/workshopRegistration" element={<WorkshopRegistration />} />
         <Route path="/registration" element={<Registration />} />
 
         <Route path="*" element={<Navigate to="/" replace />} />

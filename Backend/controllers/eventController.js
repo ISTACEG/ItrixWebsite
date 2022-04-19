@@ -21,6 +21,7 @@ const otpGenerator = require("otp-generator");
 
 exports.enrollEvent = async (req, res, next) => {
 	try {
+		
 		const { name, email, phone, college, events } = req.body;
 		let eventRegId =
 			"ITE-" +
@@ -40,11 +41,11 @@ exports.enrollEvent = async (req, res, next) => {
 		(user.eventsRegistered = [...events]),
 			(user.eventRegistrationId = eventRegId);
 		// console.log(user);
-		for (let eventId of events) {
-			const event = await Event.findOne({ eventId });
-			event.registeredUsers.push(user._id);
-			await event.save();
-		}
+		// for (let eventId of events) {
+		// 	const event = await Event.findOne({ eventId });
+		// 	event.registeredUsers.push(user._id);
+		// 	await event.save();
+		// }
 		const savedUser = await user.save();
 		req.name = savedUser.name;
 		req.email = savedUser.email;

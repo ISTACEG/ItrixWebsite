@@ -45,6 +45,15 @@ body {
   margin-bottom: 1rem;
 }
 
+.E-Name {
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.E-content {
+  font-size: 1.5rem;
+}
+
 .ButtonContainer {
   width: 100%;
   gap: 2.2rem;

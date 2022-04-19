@@ -3,14 +3,14 @@ import { useState } from 'react';
 import Select from 'react-select';
 import { useNavigate } from 'react-router-dom';
 import makeAnimated from 'react-select/animated';
-import eventDetails from '../events/events.json';
-import './Registration.css';
+import eventDetails from '../workshops/workshops.json';
+import './workshopRegistration.css';
 import env from 'react-dotenv';
 import axios from 'axios';
 
 var options = [];
 
-export default function Registration() {
+export default function WprkshopRegistration() {
   const navigate = useNavigate();
   const [userName, setUserName] = useState('');
   const [collegeName, setCollegeName] = useState('');
@@ -43,15 +43,20 @@ export default function Registration() {
       eventsInterested.push(selectedOption[i].value);
     }
 
+    const workshop = selectedOption.value
+
+    console.log(workshop);
+    // return;
+
     const configuration = {
       method: 'post',
-      url: `${env.url}/event/enroll`,
+      url: `${env.url}/workshop/enroll`,
       data: {
         name: userName,
         college: collegeName,
         email: email,
         phone: phoneNo,
-        events: eventsInterested,
+        workshop: workshop,
       },
     };
     const res = await loadScript(
@@ -64,7 +69,7 @@ export default function Registration() {
       return;
     }
 
-    const result = await axios.post(`${env.url}/payments/orders`, {price: 20000});
+    const result = await axios.post(`${env.url}/payments/orders`, {price: 75000});
 
     if (!result) {
       alert('Server error. Please check your connection.');
@@ -91,10 +96,10 @@ export default function Registration() {
           college: collegeName,
           email: email,
           phone: phoneNo,
-          events: eventsInterested,
+          workshop: workshop,
         };
 
-        const result = await axios.post(`${env.url}/payments/success-event`, data);
+        const result = await axios.post(`${env.url}/payments/success-workshop`, data);
         console.log(result);
         if (result.data.status === "Payment Success") {
 
@@ -124,11 +129,14 @@ export default function Registration() {
 
     setSubmitted(true);
   }
+  
+  
+  
   const eventsArray = eventDetails;
   options = [];
   for (let i in eventsArray) {
     let obj = {
-      value: eventsArray[i]['eventId'],
+      value: eventsArray[i]['id'],
       label: eventsArray[i]['eventName'],
     };
     options.push(obj);
@@ -144,8 +152,8 @@ export default function Registration() {
           components={animatedComponents}
           defaultValue={selectedOption}
           onChange={setSelectedOption}
-          placeholder="Events Interested..."
-          isMulti
+          placeholder="Workshops Interested..."
+          isMulti={false}
           options={options}
         />
       </div>
@@ -155,7 +163,7 @@ export default function Registration() {
   return (
     <div className="formcontainer">
       <form name="form" className="loginForm" onSubmit={handleSubmit}>
-        <div className="loginname">EVENTS REGISTRATION</div>
+        <div className="loginname">WORKSHOP REGISTRATION</div>
 
         <input
           type="text"
