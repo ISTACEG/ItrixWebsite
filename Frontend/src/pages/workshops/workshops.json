@@ -2,7 +2,7 @@
     {
         "id": 1,
         "eventName": "BlockChain Workshop by ChainLink",
-        "description": "The above workshop will be conducted by Chainlink.\nRegistration Fee: Rs.750/-\nThe topics include\n1. Chainlink Bootcamp,\n 2. Learn about EVM Chains, how they work. \n 3. Build samrt contracts using Solidity, an EVM Language.\n 4. Build Hybrid smart contracts using Chainlink and Solidity. \n 5.Create NFTs with randomness using Chainlink VRF.\n Time Period : 7 hours (excluding breaks)",
+        "description": "The above workshop will be conducted by Chainlink.\nRegistration Fee: Rs.750/-\nThe topics include\n1. Chainlink Bootcamp,\n 2. Learn about EVM Chains, how they work. \n 3. Build smart contracts using Solidity, an EVM Language.\n 4. Build Hybrid smart contracts using Chainlink and Solidity. \n 5.Create NFTs with randomness using Chainlink VRF.\n Time Period : 7 hours (excluding breaks). \n NOTE: During UPI Payment, Add note as blockchain_YOURNAME",
         "round1":"",
         "round2":"",
         "rules":"",
@@ -14,7 +14,7 @@
     {
         "id": 2,
         "eventName": "UX UI Desing Workshop by UXMINT",
-        "description": "The workshop will be conducted by UXMINT.\nRegistration Fee: Rs.750/-\nThe topics that will be covered includes,\n1. Introduction about design.\n2. What is UX and UI?\n3. Process of Digital Design.\n4. Problem Solving - Team Activity.\n5. Discussion on the Team Activity.\n6. Industry Expectations and Career in Design.\nTime Period : 6 hours (excluding breaks)",
+        "description": "The workshop will be conducted by UXMINT.\nRegistration Fee: Rs.750/-\nThe topics that will be covered includes,\n1. Introduction about design.\n2. What is UX and UI?\n3. Process of Digital Design.\n4. Problem Solving - Team Activity.\n5. Discussion on the Team Activity.\n6. Industry Expectations and Career in Design.\nTime Period : 6 hours (excluding breaks).\n NOTE: During UPI Payment, Add note as UI_YOURNAME",
         "round1":"",
         "round2":"",
         "rules":"",
@@ -26,7 +26,7 @@
     {
         "id": 3,
         "eventName": "Cybersecurity Workshop by BriskInfosec",
-        "description": "This cybersecurity workshop will be conducted by BriskInfosec.\nRegistration Fee: Rs.750/-",
+        "description": "This cybersecurity workshop will be conducted by BriskInfosec.\nRegistration Fee: Rs.750/-\n NOTE: During UPI Payment, Add note as cybersecurity_YOURNAME",
         "round1":"",
         "round2":"",
         "rules":"",

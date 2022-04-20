@@ -13,7 +13,7 @@ export default function Workshops() {
       {/* <Link to="/workshopRegistration" id="registerbtn">
           Register
       </Link> */}
-      <a href="/workshopRegistration" id="registerbtn" class="aquafade">Register</a>
+      <a href="https://forms.gle/TrBbTE21MyQsCE8H9" id="registerbtn" class="aquafade">Register</a>
       </p>
 
       

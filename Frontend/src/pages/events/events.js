@@ -12,7 +12,7 @@ export default function Events() {
         {/* <Link to="/registration" id="registerbtn">
         
         </Link> */}
-        <a href="/registration" id="registerbtn" class="aquafade">Register</a>
+        <a href="https://forms.gle/uh4Kkq3ig45a2ArNA" id="registerbtn" class="aquafade">Register</a>
       </p>
       <div className="EventObjectContainer">
         {eventarray.map((event) => {
