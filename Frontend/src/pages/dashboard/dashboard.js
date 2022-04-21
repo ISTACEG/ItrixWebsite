@@ -20,22 +20,22 @@ function Details() {
       </div>
       <div className="detsbox">
         <div className="circle"></div>
-        <div className="highcontent">4+</div>
+        <div className="highcontent">3+</div>
         <div className="content">Workshops</div>
       </div>
       <div className="detsbox">
         <div className="circle"></div>
-        <div className="highcontent">1.2L+</div>
+        <div className="highcontent">1L+</div>
         <div className="content">Cash Prizes</div>
       </div>
       <div className="detsbox">
         <div className="circle"></div>
-        <div className="highcontent">5+</div>
+        <div className="highcontent">7+</div>
         <div className="content">Internships</div>
       </div>
       <div className="detsbox">
         <div className="circle"></div>
-        <div className="highcontent">3+</div>
+        <div className="highcontent">5+</div>
         <div className="content">Placements</div>
       </div>
     </div>

@@ -43,6 +43,8 @@ body {
   justify-content: space-between;
 } */
 
+
+
 .imgcontainer {
   display: flex;
   justify-content: space-between;
@@ -380,6 +382,29 @@ div.desc {
     padding-bottom: 100px;
     z-index: -10;
   }
+
+  .imgcontainer img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .calendar{
+    font-size: 150%;
+  }
+  .calendar img{
+    width: 20%;
+  }
+
+  .CounterContainer .daystogo{
+    font-size: 150%;
+  }
+
+  #daystogo {
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 45px;
+  }
+
   .imgDescription{
     align-items: center;
     justify-content: center;
