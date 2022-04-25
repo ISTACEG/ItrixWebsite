@@ -15,6 +15,12 @@ export default function Accomodation() {
         <p className='Feecontainer'>Accommodation Fee: Rs.250/- (per day in ordinary hostel room). Rs.500/- (per day in International hostel room)</p>
       </div>
       <div className='AccObjectContainer'>
+        <p className='Contact'>Contact:  <br/>
+          Praveen R - 9361352512<br/>
+        Balasubramaniam M - 6385490321
+        </p>
+      </div>
+      <div className='AccObjectContainer'>
       <ul style={{ listStyle: 'decimal' }}>
                             <li>Accommodation will be provided only for out-station (outside Chennai) participants.</li>
                             <li>Registration for accommodation is not part of the Events registration, and is to be done separately.</li>

@@ -66,16 +66,16 @@ const Footer = (props) => {
         </div>
 
         <div className="footer-links">
-          <Link to="/events">
+          <a href="https://www.linkedin.com/company/ista-ceg/mycompany/">
               <span><LinkedInIcon /></span>
-              ISTA CEG</Link>
-          <Link to="/workshops">
+              ISTA CEG</a>
+          <a href="https://www.instagram.com/ista__ceg/">
             <span><InstagramIcon /></span>
-              ista__ceg</Link>
-          <Link to="/accomodation">#being_unITed</Link>
-          <Link to="/sponsors">
+              ista__ceg</a>
+          #being_unITed
+          <a href="https://itrix.istaceg.in">
               <span><LanguageIcon /></span>
-              /itrix.istaceg.in</Link>
+              /itrix.istaceg.in</a>
         </div>
         
     </div>
