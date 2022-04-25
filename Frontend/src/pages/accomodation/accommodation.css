@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* #registerbtn{
+  color: #2098d8;
+} */
+.AccContainer {
+  font-size: 50%;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+
+.AccMainHeading {
+  font-size: 3.6em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+
+.AccSubHeading {
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 2.4em;
+  /* letter-spacing: 0.05em; */
+}
+
+.AccSubSubHeading {
+  font-size: 2.6em;
+  line-height: 3.1em;
+  margin-bottom: 2em;
+}
+
+.AccObjectContainer {
+  display: flex;
+  width: 70%;
+  font-size: 1rem;
+    display: flex;
+    text-align: justify;
+  justify-content: space-around;
+}
+
+.AccObject {
+  /* background-color: #c4c4c4; */
+  height: 35em;
+  width: 35em;
+  margin: 3em;
+}
+
+.AccImage {
+  height: 35em;
+  width: 35em;
+}
+
+.AccObject:hover {
+  border: solid darkcyan 0.5em;
+}
+
+.Feecontainer {
+    color: red;
+}
+
+.aquafade {
+  border: 2px solid #1eb3bc;
+  color: #1eb3bc;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  transition-property: color, background-color;
+}
+
+
+.aquafade:hover, .aquafade:focus, .aquafade:active {
+  color: white;
+  background-color: #1eb3bc;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .EventsContainer {
+    padding: 1em;
+  }
+  .EventObject {
+    margin: 1em;
+  }
+}

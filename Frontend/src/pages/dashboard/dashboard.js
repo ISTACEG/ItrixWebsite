@@ -1,6 +1,7 @@
 import './dashboard.css';
 import React from 'react';
 import { useState } from 'react';
+import Footer from '../footer/footer';
 const logo = require('../../assets/logo.png');
 const img1 = require('../../assets/img1.jpeg');
 const img2 = require('../../assets/img2.jpeg');
@@ -12,6 +13,8 @@ const calender = require('../../assets/calendar.png');
 
 function Details() {
   return (
+    <div className='details'>
+  
     <div className="detscontainer">
       <div className="detsbox">
         <div className="circle"></div>
@@ -38,6 +41,15 @@ function Details() {
         <div className="highcontent">5+</div>
         <div className="content">Placements</div>
       </div>
+    </div>
+    <div className="aboutUs">
+      <span>About Us</span>
+      <p>
+      Information Science and Technology Association(ISTA) is a student run society of Department of Information Science and Technology, College of Engineering, Guindy, Anna University. ISTA conducts "I++", an intra-collegiate symposium and "ITRIX", an inter-collegiate symposium in every odd and even semesters respectively. It has always enjoyed a respectable status amongst the students and was set up with the objective to organize various activities
+      that contributes to the academic and professional development of students along with leadership qualities, teamwork and other essential employability skills.
+      </p>
+    </div>
+
     </div>
   );
 }
@@ -153,6 +165,7 @@ export default function Dashboard() {
       <ImageContainer />
       <Details />
       <Gallery />
+      <Footer />
     </>
   );
 }

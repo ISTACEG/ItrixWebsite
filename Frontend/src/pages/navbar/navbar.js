@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className="quicklinkss">
           <Link to="/events">Events</Link>
           <Link to="/workshops">Workshops</Link>
-          <Link to="/accomodation">Accomodation</Link>
+          <Link to="/accomodation">Accommodation</Link>
           <Link to="/sponsors">Sponsors</Link>
           <Link to="/team">Team</Link>
         </div>

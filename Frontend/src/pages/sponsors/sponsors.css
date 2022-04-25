@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.SponsorsContainer {
+    font-size: 50%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 700;
+  }
+  
+  .SponsorsMainHeading {
+    font-size: 3.6em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+  }
+  
+  
+  .SponsorsSubHeading {
+    font-size: 2em;
+    /* margin-top: 2em; */
+    /* margin-bottom: 2em; */
+    line-height: 2.4em;
+    /* letter-spacing: 0.05em; */
+  }
+  
+  .SponsorsSubSubHeading {
+    font-size: 2.6em;
+    line-height: 3.1em;
+    margin-bottom: 2em;
+  }
+  
+  .SponsorsObjectContainer {
+    display: flex;
+    width: 100%;
+    /* gap: 15em; */
+    row-gap: 5em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .SponsorsObject {
+    /* background-color: #c4c4c4; */
+    /* height: 35em; */
+    width: 30%;
+    margin: 1em;
+  }
+  
+  .SponsorsImage {
+    /* height: 35em;
+    width: 35em; */
+    width: 80%;
+  }
+  .SponsorImage {
+      width: 40%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .SponsorsContainer {
+      padding: 1em;
+    }
+    .SponsorsObject {
+      margin: 1em;
+    }
+  }
+  
