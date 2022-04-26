@@ -47,7 +47,7 @@
         "rules":"1. The design should cover all the given scenarios.\n2. This is team event with maximum of 3 members in a team.\n3. Everyone in the team should register individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"10:00 AM to 03:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Selshia Teresa","contactno":"+91 86183 12443"},{"name":"Paavani","contactno":"+91 63826 37556"}],
         "image":"systemDesign.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -73,7 +73,7 @@
         "rules":"1.This is an individual event.\n2.Participants should adhere to the round timings.\n3. Participants will get credits from Digital Ocean.\n4. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 12:30 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Meenaloshini V","contactno":""},{"name":"Madhumita Sri K S","contactno":""}],
         "image":"uiAutomation.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -86,7 +86,7 @@
         "rules":"1. This is flagship event.\n2. API should cover all the given scenarios.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Vishnupriya S M","contactno":"+91 74014 73371"},{"name":"Bharathi Selvakumar","contactno":""}],
         "image":"postmanTesting.png",
         "cashprize":{"1st Prize":"₹10,000","2nd Prize":"₹5,000","3rd Prize":"₹2,500"}
     },
@@ -99,7 +99,7 @@
         "rules":"1. This is team event with maximum of 3 members in a team.\n2. Everyone in the team should register individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 02:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Naveena M","contactno":"+91 63693 01744"},{"name":"sakthi","contactno":""}],
         "image":"innovate.png",
         "cashprize":{"1st Prize":"₹1,000","2nd Prize":"₹750","3rd Prize":"₹500"}
     },
@@ -151,7 +151,7 @@
         "rules":"1. This is team event with a max of 3 members in a team.\n2. Everyone in the team should register individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"Paavani M","contactno":"+91 63826 37556"},{"name":"Sakthi A","contactno":"+91 63693 01744"}],
+        "contact":[{"name":"Nithyasri","contactno":"+91 91760 10770"},{"name":"Sri Akshya","contactno":"+91 97427 53442"}],
         "image":"reverseCoding.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -164,7 +164,7 @@
         "rules":"1. The final web application should contain all the given necessary criteria.\n2. Participants should participate individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"Sanjayram R","contactno":"+91 90035 64604"},{"name":"Akil Vishnu M","contactno":"+91 90476 18511"}],
+        "contact":[{"name":"Keerthana S","contactno":"+91 63832 50190"},{"name":"Yuvabala P","contactno":"+91 99760 03204"}],
         "image":"webtrix.png",
         "cashprize":{"1st Prize":"₹10,000","2nd Prize":"₹5,000","3rd Prize":"₹2,500"}
     },
@@ -190,7 +190,7 @@
         "rules":"1. Participants will get credits from Digital Ocean.\n2. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Yoheshwar S","contactno":"+91 63826 10014"},{"name":"Tamil Eniyan S","contactno":"+91 63797 84543"}],
         "image":"sequalize.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -242,7 +242,7 @@
         "rules":"",
         "date":"7th May 2022",
         "time":"09:00 AM to 12:00 PM",
-        "contact":[{"name":"Selshia Teresa","contactno":"+91 86183 12443"},{"name":"Naveena","contactno":"+91 93844 42698"}],
+        "contact":[{"name":"Reesha R","contactno":"+91 82706 09187"},{"name":"Janani S","contactno":"+91 63798 65976"}],
         "image":"madOverMarketing.png",
         "cashprize":{"1st Prize":"₹1,000","2nd Prize":"₹750","3rd Prize":"₹500"}
     },
