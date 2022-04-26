@@ -9,6 +9,8 @@ window.env = {
   "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
   "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
   "EDITOR": "notepad.exe",
+  "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+  "FPS_BROWSER_USER_PROFILE_STRING": "Default",
   "Hadoop_home": "D:\\hadoop-3.3.1",
   "HOME": "C:\\Users\\asus",
   "HOMEDRIVE": "C:",
