@@ -32,6 +32,13 @@ export default function Sponsors() {
         </div>
       </div>
 
+      <center><p className='SponsorsSubHeading'>EVENTS SPONSOR</p></center>
+      <div className="SponsorsObjectContainer">
+        <div className="SponsorsObject">
+            <center><img src='DigitalOcean.svg' className="SponsorsImage"/></center>
+        </div>
+      </div>
+
 
       <center><p className='SponsorsSubHeading'>LOGISTICS SPONSOR</p></center>
       <div className="SponsorsObjectContainer">

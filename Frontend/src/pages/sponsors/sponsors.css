@@ -55,11 +55,21 @@
   }
 
   @media screen and (max-width: 600px) {
+    
+    .SponsorsImage {
+      /* height: 35em;
+      width: 35em; */
+      width: 80%;
+    }
+    .SponsorImage {
+      width: 80%;
+    }
     .SponsorsContainer {
       padding: 1em;
     }
     .SponsorsObject {
       margin: 1em;
+      width: 80%;
     }
   }
   
