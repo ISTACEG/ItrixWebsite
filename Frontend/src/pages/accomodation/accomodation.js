@@ -9,7 +9,7 @@ export default function Accomodation() {
     <center>
       <div className="AccObjectContainer">
         <p>Accommodation can be provided for participants from outside Chennai for two days -
-                      March 12th (evening) to 14th (evening) - in CEG Hostels inside the campus.</p>
+                      May 5th (evening) to 7th (evening) - in CEG Hostels inside the campus.</p>
         </div>
         <div className="AccObjectContainer">
         <p className='Feecontainer'>Accommodation Fee: Rs.250/- (per day in ordinary hostel room). Rs.500/- (per day in International hostel room)</p>

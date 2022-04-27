@@ -8,20 +8,20 @@
         "rules":"1. New set of questions will be loaded on all 3 days at 6:00 PM.\n2. Winners for each day will be selected based on the leaderboard result of the particular day.\n3. Participating in this event doesn't require a registration.\n4. The game website link will be available in the website and the instagram page \"ista__CEG\" on the day of the event.",
         "date":"1st, 2nd and 3rd May 2022",
         "time":"",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Ragul B","contactno":"+91 70941 31086"},{"name":"Hariharan S","contactno":"+91 93849 77686"}],
         "image":"cos.png",
         "cashprize":{"1st Prize":"₹1,000","2nd Prize":"₹750","3rd Prize":"₹500"}
     },
     {
 	  "eventId":"2",
         "eventName":"OLPC",
-        "description": "WINNERS of OLPC will get a FULL TIME OFFER from CELESTICA.\nOnline Programming Contest will be conducted online with programming questions of various difficulty levels.\nParticipants will get an opportunity to submit their resume to CELESTICA for INTERNSHIPS and FULL TIME OFFERS.",
+        "description": "WINNERS of OLPC will get a FULL TIME OFFER from CELESTICA Private Limited.\nOnline Programming Contest will be conducted online with programming questions of various difficulty levels.\nParticipants will get an opportunity to submit their resume to CELESTICA Private Limited for INTERNSHIPS and FULL TIME OFFERS.",
         "round1":"The participant has to solve programming questions of various difficult levels. Contest link will be shared in the website and the whatsapp group.",
         "round2":"",
         "rules":"1. The participant has to appear online for this event.\n2. Checkout the instagram page \"ista__ceg\" and the website for the contest link on the day of the event.",
         "date":"4th May 2022",
         "time":"08:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Hariharan S","contactno":"+91 93849 77686"},{"name":"Hrithik K","contactno":"+91 80089 88901"}],
         "image":"olpc.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -73,7 +73,7 @@
         "rules":"1.This is an individual event.\n2.Participants should adhere to the round timings.\n3. Participants will get credits from Digital Ocean.\n4. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 12:30 PM",
-        "contact":[{"name":"Meenaloshini V","contactno":""},{"name":"Madhumita Sri K S","contactno":""}],
+        "contact":[{"name":"Meenaloshini V","contactno":"+91 73974 74063"},{"name":"Madhumita Sri K S","contactno":"+91 97913 29556"}],
         "image":"uiAutomation.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -86,7 +86,7 @@
         "rules":"1. This is flagship event.\n2. API should cover all the given scenarios.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"Vishnupriya S M","contactno":"+91 74014 73371"},{"name":"Bharathi Selvakumar","contactno":""}],
+        "contact":[{"name":"Vishnupriya S M","contactno":"+91 74014 73371"},{"name":"Bharathi Selvakumar","contactno":"+91 63798 58195"}],
         "image":"postmanTesting.png",
         "cashprize":{"1st Prize":"₹10,000","2nd Prize":"₹5,000","3rd Prize":"₹2,500"}
     },
@@ -99,7 +99,7 @@
         "rules":"1. This is team event with maximum of 3 members in a team.\n2. Everyone in the team should register individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"6th May 2022",
         "time":"09:00 AM to 02:00 PM",
-        "contact":[{"name":"Naveena M","contactno":"+91 63693 01744"},{"name":"sakthi","contactno":""}],
+        "contact":[{"name":"Naveena M","contactno":"+91 93844 42698"},{"name":"Sakthi","contactno":"+91 63693 01744"}],
         "image":"innovate.png",
         "cashprize":{"1st Prize":"₹1,000","2nd Prize":"₹750","3rd Prize":"₹500"}
     },
@@ -119,7 +119,7 @@
     {
 	  "eventId":"10",
         "eventName": "Paper Presentation",
-        "description": "Given a set of topics, participants has to present their projects to the panel members.\nSend your entries to \"istaceg22@gmail.com\" along with the name, college name, topic and abstract.\nEntries accepted till 6th May 2022, 11:00 AM.\nTopics will be updated soon in the website.",
+        "description": "Given a set of topics, participants has to present their projects to the panel members.\nSend your entries(abstract) to \"itrixceg22@gmail.com\" along with the name, college name, topic and abstract.\nEntries accepted till 5th May 2022, 06:00 PM.\nTopics for paper presentation:\n1. Applications of AI in Healthcare and Wellbeing Systems.\n2. Knowledge Management of Health Data.\n3. Microservice-based Cloud Applications.\n4. 5G/6G Enhanced Edge/Cloud Applications.\n5. IOT Applications in smart cities and urban health.\n6. IOT Applications in Outdoor, wide-area, or crowdsourced sensing systems.",
         "round1":"",
         "round2":"",
         "rules":"1. It is a team event with a maximum of 3 members in a team.\n2. 2 rounds of selection will be conducted.\n3. Winners will be selected based on the result of second round.\n4. Participants should adhere to the round timings.\n5. Participants will get credits from Digital Ocean.\n6. It is mandatory to have an account on Digital Ocean.",
@@ -151,7 +151,7 @@
         "rules":"1. This is team event with a max of 3 members in a team.\n2. Everyone in the team should register individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"Nithyasri","contactno":"+91 91760 10770"},{"name":"Sri Akshya","contactno":"+91 97427 53442"}],
+        "contact":[{"name":"Nithyasri","contactno":"+91 91760 10770"},{"name":"Sri Akshaya","contactno":"+91 97427 53442"}],
         "image":"reverseCoding.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -164,7 +164,7 @@
         "rules":"1. The final web application should contain all the given necessary criteria.\n2. Participants should participate individually.\n3. Participants should adhere to the round timings.\n4. Participants will get credits from Digital Ocean.\n5. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 04:00 PM",
-        "contact":[{"name":"Keerthana S","contactno":"+91 63832 50190"},{"name":"Yuvabala P","contactno":"+91 99760 03204"}],
+        "contact":[{"name":"Tharun B","contactno":"+91 80725 74223"},{"name":"Prasanth M","contactno":"+91 82485 10328"}],
         "image":"webtrix.png",
         "cashprize":{"1st Prize":"₹10,000","2nd Prize":"₹5,000","3rd Prize":"₹2,500"}
     },
@@ -203,7 +203,7 @@
         "rules":"1. Participants will get credits from Digital Ocean.\n2. It is mandatory to have an account on Digital Ocean.",
         "date":"7th May 2022",
         "time":"09:00 AM to 12:00 PM",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Vijay","contactno":"+91 94879 55453"},{"name":"Vijay","contactno":"+91 94879 55453"}],
         "image":"uiuxDesign.png",
         "cashprize":{"1st Prize":"₹3,000","2nd Prize":"₹1,500","3rd Prize":"₹750"}
     },
@@ -229,14 +229,14 @@
         "rules":"",
         "date":"7th May 2022",
         "time":"09:00 AM to 12:00 PM",
-        "contact":[{"name":"Sushrut Vinayak","contactno":"+91 91762 58275"},{"name":"Vishwa Kumar","contactno":"+91 98402 12940"}],
+        "contact":[{"name":"Vishwa Kumar","contactno":"+91 98402 12940"},{"name":"Vishwa Kumar","contactno":"+91 98402 12940"}],
         "image":"logically.png",
         "cashprize":{"1st Prize":"₹1,000","2nd Prize":"₹750","3rd Prize":"₹500"}
     },
     {
 	  "eventId":"19",
         "eventName": "Mad over Marketing",
-        "description": "Mad over marketing tests the marketing skills of the participants. This is a single round event.\nWinners of Mad over Marketing will get an INTERNSHIP from SOFTRATE.",
+        "description": "Mad over marketing tests the marketing skills of the participants. This is a single round event.\nWinners of Mad over Marketing will get an INTERNSHIP OFFER from SOFTRATE.",
         "round1":"",
         "round2":"",
         "rules":"",
