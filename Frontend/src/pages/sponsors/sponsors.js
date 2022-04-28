@@ -47,12 +47,12 @@ export default function Sponsors() {
         </div>
       </div>
 
-      {/* <center><p className='SponsorsSubHeading'>Media Sponsor</p></center>
+      <center><p className='SponsorsSubHeading'>Media Sponsor</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
             <img src='celstica.svg' className="SponsorsImage"/>
         </div>
-      </div> */}
+      </div>
 
 
     </div>
