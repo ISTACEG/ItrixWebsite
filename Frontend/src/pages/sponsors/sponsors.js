@@ -12,30 +12,30 @@ export default function Sponsors() {
       <center><p className='SponsorsSubHeading'>TITLE SPONSOR</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
-            <center><img src='impigerWhite.png' className="SponsorsImage"/></center>
+            <center><a href='https://www.impigertech.com/'><img src='impigerWhite.png' className="SponsorsImage"/></a></center>
         </div>
       </div>
 
       <center><p className='SponsorsSubHeading'>RECRUITMENT PARTNERS</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
-            <center><img src='impigerWhite.png' className="SponsorsImage"/></center>
+            <center><a href='https://www.impigertech.com/'><img src='impigerWhite.png' className="SponsorsImage"/></a></center>
         </div>
         <div className="SponsorsObject">
-            <center><img src='briskinfosec.png' className="SponsorImage"/></center>
+            <center><a href='https://www.briskinfosec.com/'><img src='briskinfosec.png' className="SponsorImage"/></a></center>
         </div>        
         <div className="SponsorsObject">
-            <center><img src='celestica.svg' className="SponsorsImage"/></center>
+            <center><a href='https://www.celestica.com/'><img src='celestica.svg' className="SponsorsImage"/></a></center>
         </div>
         <div className="SponsorsObject">
-            <center><img src='softrate.png' className="SponsorsImage"/></center>
+            <center><a href='https://softrateindia.com/'><img src='softrate.png' className="SponsorsImage"/></a></center>
         </div>
       </div>
 
       <center><p className='SponsorsSubHeading'>EVENTS SPONSOR</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
-            <center><img src='DigitalOcean.svg' className="SponsorsImage"/></center>
+            <center><a href='https://www.digitalocean.com/'><img src='DigitalOcean.svg' className="SponsorsImage"/></a></center>
         </div>
       </div>
 
@@ -43,14 +43,14 @@ export default function Sponsors() {
       <center><p className='SponsorsSubHeading'>LOGISTICS SPONSOR</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
-            <center><img src='uniqtechnologies.png' className="SponsorsImage"/></center>
+            <center><a href='https://www.uniqtechnologies.co.in/'><img src='uniqtechnologies.png' className="SponsorsImage"/></a></center>
         </div>
       </div>
 
       <center><p className='SponsorsSubHeading'>Media Sponsor</p></center>
       <div className="SponsorsObjectContainer">
         <div className="SponsorsObject">
-            <img src='celstica.svg' className="SponsorsImage"/>
+            <center><a href='https://www.celestica.com/'><img src='celstica.svg' className="SponsorsImage"/></a></center>
         </div>
       </div>
 

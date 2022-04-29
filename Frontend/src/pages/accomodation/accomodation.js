@@ -12,7 +12,7 @@ export default function Accomodation() {
                       May 5th (evening) to 7th (evening) - in CEG Hostels inside the campus.</p>
         </div>
         <div className="AccObjectContainer">
-        <p className='Feecontainer'>Accommodation Fee: Rs.250/- (per day in ordinary hostel room). Rs.500/- (per day in International hostel room)</p>
+        <p className='Feecontainer'>Accommodation Fee: Rs.250/-(per day in ordinary hostel room). Rs.500/- (per day in International hostel room) Additional charges: Rs.100/- for bed in ordinary hostel rooms.</p>
       </div>
       <div className='AccObjectContainer'>
         <p className='Contact'>Contact:  <br/>

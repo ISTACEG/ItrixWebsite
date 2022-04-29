@@ -25,7 +25,7 @@ function EventDescription() {
     <div className="MainContainer">
       <div className="TopContainer">
         <div className="topimage">
-          <img src={'eventImages/' + image} />
+          <img src={'eventPosters/' + image} />
         </div>
         <div className="TopRightContainer">
           <p className="EventName">{eventName}</p>

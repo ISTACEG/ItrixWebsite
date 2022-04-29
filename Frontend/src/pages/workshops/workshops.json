@@ -8,7 +8,7 @@
         "rules":"",
         "date":"7th May 2022",
         "time":"",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Sushrut","contactno":"+91 91762 58275"},{"name":"Sushrut","contactno":"+91 91762 58275"}],
         "image":"Chainlink.png"
     },
     {
@@ -20,7 +20,7 @@
         "rules":"",
         "date":"6th May 2022",
         "time":"09:30 am. Duration: 6 hours(excluding breaks)",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Keerthana S","contactno":"+91 63832 50190"},{"name":"Yuvabala P","contactno":"+91 99760 03204"}],
         "image":"UXMINT.png"
     },
     {
@@ -32,7 +32,7 @@
         "rules":"",
         "date":"7th May 2022",
         "time":"",
-        "contact":[{"name":"","contactno":""},{"name":"","contactno":""}],
+        "contact":[{"name":"Kevin","contactno":"+91 99622 22991"},{"name":"Kevin","contactno":"+91 99622 22991"}],
         "image":"Briskinfosec.png"
     }
 ]
